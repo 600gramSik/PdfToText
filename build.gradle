@@ -30,6 +30,7 @@ dependencies {
     implementation 'org.apache.pdfbox:pdfbox:2.0.24'
     // Tess4J 의존성 (Tesseract)
     implementation 'net.sourceforge.tess4j:tess4j:5.4.0'
+    implementation 'net.java.dev.jna:jna:5.8.0'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.mysql:mysql-connector-j'
     annotationProcessor 'org.projectlombok:lombok'
